@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# 🍽️ Aliya’s Restaurant – Food Ordering App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, clean, and responsive **React food ordering application** built as part of a **Frontend Developer Intern screening task**.  
+The app fetches food data from a public API and allows users to browse items by category, view details, and add items to cart.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
+🔗 (Add your Netlify / Vercel link here after deployment)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📂 GitHub Repository
+🔗 https://github.com/Aliya3303/aliyas-restaurant
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **React Router DOM**
+- **Public REST API (TheMealDB)**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 📱 **Responsive design** (mobile-first)
+- 🍕 **Food listing** with images and categories
+- 🔍 **Filter food by category**
+- 📄 **Food details page**
+- 🛒 **Add to cart functionality**
+- 🧭 **Reusable Navbar across pages**
+- ⚡ **API data fetching with loading states**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔗 API Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**TheMealDB API**  
+https://www.themealdb.com/api.php
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Example endpoint:
+https://www.themealdb.com/api/json/v1/1/search.php?s=
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📁 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+src/
+│── components/
+│ ├── Navbar.jsx
+│ ├── FoodCard.jsx
+│
+│── pages/
+│ ├── Home.jsx
+│ ├── FoodDetails.jsx
+│ ├── Layout.jsx
+│
+│── App.jsx
+│── index.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ▶️ How to Run Locally
 
-### Analyzing the Bundle Size
+1.Clone the repository
+```bash
+git clone https://github.com/Aliya3303/aliyas-restaurant.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2.Navigate to project folder
+cd aliyas-restaurant
 
-### Making a Progressive Web App
+3.Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4.Start development server
+npm start
 
-### Advanced Configuration
+5.Open in browser
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👩‍💻 Author
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aliya
+Frontend Developer (Fresher)
+GitHub: https://github.com/Aliya3303
