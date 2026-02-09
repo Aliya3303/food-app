@@ -53,23 +53,15 @@ https://www.themealdb.com/api/json/v1/1/search.php?s=
 
 src/
 │── components/
-
 │ ├── Navbar.jsx
-
 │ ├── FoodCard.jsx
-
 │
 │── pages/
-
 │ ├── Home.jsx
-
 │ ├── FoodDetails.jsx
-
 │ ├── Layout.jsx
-
 │
 │── App.jsx
-
 │── index.js
 
 
