@@ -11,7 +11,7 @@ The app fetches food data from a public API and allows users to browse items by 
 ---
 
 ## 📂 GitHub Repository
-🔗 https://github.com/Aliya3303/aliyas-restaurant
+🔗 https://github.com/Aliya3303/food-app
 
 ---
 
@@ -53,15 +53,23 @@ https://www.themealdb.com/api/json/v1/1/search.php?s=
 
 src/
 │── components/
+
 │ ├── Navbar.jsx
+
 │ ├── FoodCard.jsx
+
 │
 │── pages/
+
 │ ├── Home.jsx
+
 │ ├── FoodDetails.jsx
+
 │ ├── Layout.jsx
+
 │
 │── App.jsx
+
 │── index.js
 
 
@@ -70,7 +78,7 @@ src/
 ## ▶️ How to Run Locally
 
 1.Clone the repository
-```bash
+bash
 git clone https://github.com/Aliya3303/aliyas-restaurant.git
 
 2.Navigate to project folder
@@ -85,7 +93,8 @@ npm start
 5.Open in browser
 http://localhost:3000
 
-👩‍💻 Author
+
+## 👩‍💻 Author
 
 Aliya
 Frontend Developer (Fresher)
