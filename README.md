@@ -78,7 +78,7 @@ src/
 ## ▶️ How to Run Locally
 
 1.Clone the repository
-bash
+```bash
 git clone https://github.com/Aliya3303/aliyas-restaurant.git
 
 2.Navigate to project folder
@@ -93,7 +93,7 @@ npm start
 5.Open in browser
 http://localhost:3000
 
-
+---
 ## 👩‍💻 Author
 
 Aliya
