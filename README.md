@@ -6,7 +6,7 @@ The app fetches food data from a public API and allows users to browse items by 
 ---
 
 ## 🚀 Live Demo
-🔗 (Add your Netlify / Vercel link here after deployment)
+🔗 https://food-app-gamma.vercel.app/
 
 ---
 
