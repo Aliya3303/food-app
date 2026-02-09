@@ -71,10 +71,10 @@ src/
 
 1.Clone the repository
 ```bash
-git clone https://github.com/Aliya3303/aliyas-restaurant.git
+git clone https://github.com/Aliya3303/food-app.git
 
 2.Navigate to project folder
-cd aliyas-restaurant
+cd food-app
 
 3.Install dependencies
 npm install
